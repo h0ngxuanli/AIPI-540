@@ -654,3 +654,480 @@
 2024-02-04 16:11:09,305 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
 2024-02-04 16:11:10,433 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
 2024-02-04 16:11:15,452 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:20,470 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:22,781 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:11:24,279 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:11:24,310 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:11:24,311 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:11:25,479 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:30,498 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:31,200 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:11:34,826 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:11:36,341 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:39,283 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:11:39,314 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:11:39,316 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:11:41,515 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:46,881 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:11:47,476 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:52,499 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:11:54,287 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:11:54,319 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:11:54,321 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:11:57,959 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:00,931 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:12:01,205 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:12:03,209 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:08,226 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:09,289 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:12:09,323 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:12:09,324 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:12:14,022 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:14,985 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:12:19,047 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:24,066 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:24,290 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:12:24,324 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:12:24,324 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:12:29,561 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:31,210 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:12:34,063 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:12:34,599 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:39,290 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:12:39,329 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:12:39,330 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:12:40,510 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:45,526 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:48,130 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:12:51,336 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:12:54,293 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:12:54,332 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:12:54,333 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:12:56,532 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:01,216 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:13:02,222 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:06,213 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:13:07,870 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:09,297 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:13:09,336 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:13:09,336 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:13:13,419 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:18,432 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:24,143 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:24,286 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:13:24,300 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:13:24,340 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:13:24,341 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:13:29,525 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:31,219 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:13:35,232 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:39,305 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:13:39,341 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:13:39,342 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:13:40,497 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:44,372 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:13:46,435 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:51,453 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:13:54,309 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:13:54,343 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:13:54,345 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:13:56,506 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:01,222 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:14:02,228 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:02,449 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:14:07,242 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:09,309 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:14:09,349 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:14:09,350 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:14:12,502 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:14,490 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:14:18,239 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:23,252 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:24,310 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:14:24,348 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:14:24,348 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:14:24,551 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:14:28,492 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:31,229 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:14:34,243 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:39,262 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:39,315 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:14:39,353 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:14:39,354 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:14:44,491 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:49,503 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:54,319 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:14:54,357 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:14:54,357 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:14:54,529 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:14:54,662 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:14:59,544 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:01,236 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:15:05,254 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:08,717 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:15:09,325 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:15:09,364 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:15:09,366 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:15:10,549 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:15,565 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:20,579 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:24,329 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:15:24,367 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:15:24,368 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:15:26,567 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:26,787 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:15:31,243 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:15:32,248 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:36,833 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:15:38,099 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:39,332 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:15:39,372 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:15:39,373 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:15:43,459 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:48,476 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:53,495 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:15:54,334 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:15:54,375 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:15:54,376 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:15:58,538 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:01,250 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:16:04,171 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:04,963 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:16:09,188 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:09,344 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:16:09,383 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:16:09,385 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:16:14,523 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:17,023 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:16:19,908 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:24,348 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:16:24,387 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:16:24,388 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:16:25,503 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:30,518 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:31,261 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:16:36,279 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:39,352 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:16:39,388 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:16:39,388 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:16:41,131 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:16:41,555 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:46,576 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:51,598 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:54,359 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:16:54,394 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:16:54,395 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:16:56,826 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:16:57,204 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:17:01,270 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:17:02,276 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:07,638 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:09,262 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:17:09,363 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:17:09,395 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:17:09,396 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:17:13,544 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:18,564 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:23,588 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:24,363 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:17:24,396 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:17:24,396 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:17:25,327 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:17:29,497 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:31,278 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:17:35,297 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:39,370 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:17:39,402 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:17:39,402 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:17:40,517 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:45,539 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:49,418 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:17:51,174 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:17:54,374 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:17:54,408 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:17:54,409 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:17:56,486 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:01,282 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:18:02,286 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:07,303 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:09,379 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:18:09,407 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:18:09,408 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:18:12,589 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:17,537 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:18:18,560 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:23,580 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:24,385 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:18:24,410 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:18:24,411 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:18:29,528 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:31,289 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:18:35,494 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:37,657 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:18:39,388 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:18:39,415 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:18:39,417 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:18:40,597 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:45,619 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:50,633 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:18:54,390 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:18:54,420 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:18:54,421 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:18:56,597 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:01,291 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:19:01,765 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:19:02,297 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:07,313 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:09,393 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:19:09,423 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:19:09,424 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:19:12,561 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:17,776 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:19,833 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:19:22,795 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:24,397 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:19:24,424 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:19:24,426 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:19:28,582 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:31,298 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:19:34,310 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:39,332 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:39,412 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:19:39,429 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:19:39,430 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:19:40,934 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:19:44,589 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:49,605 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:19:54,419 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:19:54,433 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:19:54,434 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:19:55,534 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:00,553 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:01,301 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:20:06,366 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:07,065 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:20:09,422 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:20:09,438 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:20:09,439 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:20:11,573 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:16,588 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:19,162 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:20:22,434 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:24,426 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:20:24,439 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:20:24,439 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:20:25,189 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:20:27,536 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:31,307 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:20:33,318 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:38,341 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:39,431 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:20:39,445 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:20:39,446 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:20:43,625 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:47,287 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:20:49,400 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:54,412 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:20:54,435 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:20:54,448 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:20:54,449 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:20:59,628 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:01,314 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:21:04,869 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:05,399 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:21:09,435 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:21:09,453 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:21:09,454 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:21:10,628 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:15,645 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:20,665 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:24,437 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:21:24,457 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:21:24,457 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:21:26,613 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:31,322 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:21:32,332 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:33,508 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:21:37,557 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:39,443 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:21:39,463 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:21:39,464 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:21:43,533 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:43,558 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:21:48,554 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:51,597 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:21:54,188 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:21:54,446 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:21:54,463 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:21:54,464 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:21:59,618 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:01,324 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:22:05,340 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:09,451 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:22:09,466 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:22:09,467 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:22:10,642 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:16,502 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:17,709 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:22:21,521 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:24,456 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:22:24,472 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:22:24,473 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:22:26,633 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:31,329 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:22:31,777 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:22:32,335 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:37,361 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:39,458 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:22:39,474 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:22:39,475 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:22:42,640 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:47,655 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:52,911 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:22:53,876 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:22:54,461 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:22:54,479 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:22:54,480 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:22:58,593 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:23:01,332 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:23:04,346 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:23:09,462 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:23:09,483 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-04 16:23:09,483 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: stop_status
+2024-02-04 16:23:09,651 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:23:09,947 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:23:10,199 DEBUG   SenderThread:24660 [sender.py:send():382] send: telemetry
+2024-02-04 16:23:10,201 DEBUG   SenderThread:24660 [sender.py:send():382] send: exit
+2024-02-04 16:23:10,201 INFO    SenderThread:24660 [sender.py:send_exit():589] handling exit code: 1
+2024-02-04 16:23:10,201 INFO    SenderThread:24660 [sender.py:send_exit():591] handling runtime: 1989
+2024-02-04 16:23:10,202 INFO    SenderThread:24660 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-04 16:23:10,202 INFO    SenderThread:24660 [sender.py:send_exit():597] send defer
+2024-02-04 16:23:10,202 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,202 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-04 16:23:10,202 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,202 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-04 16:23:10,202 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 1
+2024-02-04 16:23:10,202 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,203 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-04 16:23:10,203 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,203 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-04 16:23:10,203 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 2
+2024-02-04 16:23:10,203 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,203 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-04 16:23:10,203 INFO    HandlerThread:24660 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-04 16:23:10,203 DEBUG   SystemMonitor:24660 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-04 16:23:10,203 DEBUG   SystemMonitor:24660 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-04 16:23:10,204 INFO    HandlerThread:24660 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-04 16:23:10,204 INFO    HandlerThread:24660 [interfaces.py:finish():202] Joined disk monitor
+2024-02-04 16:23:10,204 INFO    HandlerThread:24660 [interfaces.py:finish():202] Joined memory monitor
+2024-02-04 16:23:10,204 INFO    HandlerThread:24660 [interfaces.py:finish():202] Joined network monitor
+2024-02-04 16:23:10,205 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,205 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-04 16:23:10,205 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 3
+2024-02-04 16:23:10,205 DEBUG   SenderThread:24660 [sender.py:send():382] send: stats
+2024-02-04 16:23:10,205 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,205 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-04 16:23:10,205 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,205 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-04 16:23:10,205 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 4
+2024-02-04 16:23:10,205 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,205 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-04 16:23:10,206 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,206 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-04 16:23:10,206 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 5
+2024-02-04 16:23:10,206 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,206 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-04 16:23:10,206 DEBUG   SenderThread:24660 [sender.py:send():382] send: summary
+2024-02-04 16:23:10,206 INFO    SenderThread:24660 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-04 16:23:10,207 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,207 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-04 16:23:10,207 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 6
+2024-02-04 16:23:10,207 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,207 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-04 16:23:10,207 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,207 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-04 16:23:10,211 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: status_report
+2024-02-04 16:23:10,295 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 7
+2024-02-04 16:23:10,295 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:10,295 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-04 16:23:10,296 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:10,296 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-04 16:23:10,953 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/config.yaml
+2024-02-04 16:23:10,954 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/wandb-summary.json
+2024-02-04 16:23:11,204 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-04 16:23:11,439 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 8
+2024-02-04 16:23:11,440 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: poll_exit
+2024-02-04 16:23:11,440 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:11,441 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-04 16:23:11,442 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:11,442 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-04 16:23:11,442 INFO    SenderThread:24660 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-04 16:23:11,444 INFO    SenderThread:24660 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-04 16:23:11,444 INFO    SenderThread:24660 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-02-04 16:23:11,445 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 9
+2024-02-04 16:23:11,445 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:11,445 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-04 16:23:11,445 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:11,446 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-04 16:23:11,446 INFO    SenderThread:24660 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-04 16:23:11,954 INFO    Thread-12 :24660 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:23:11,955 INFO    SenderThread:24660 [dir_watcher.py:finish():388] scan: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files
+2024-02-04 16:23:11,955 INFO    SenderThread:24660 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/requirements.txt requirements.txt
+2024-02-04 16:23:11,956 INFO    SenderThread:24660 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log output.log
+2024-02-04 16:23:11,962 INFO    SenderThread:24660 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/config.yaml config.yaml
+2024-02-04 16:23:11,967 INFO    SenderThread:24660 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/wandb-summary.json wandb-summary.json
+2024-02-04 16:23:11,974 INFO    SenderThread:24660 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/conda-environment.yaml conda-environment.yaml
+2024-02-04 16:23:11,979 INFO    SenderThread:24660 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/wandb-metadata.json wandb-metadata.json
+2024-02-04 16:23:11,980 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 10
+2024-02-04 16:23:11,981 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:11,981 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-04 16:23:11,983 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:11,983 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-04 16:23:11,983 INFO    SenderThread:24660 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-04 16:23:12,210 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-04 16:23:12,210 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: poll_exit
+2024-02-04 16:23:12,247 INFO    wandb-upload_0:24660 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/requirements.txt
+2024-02-04 16:23:12,295 INFO    wandb-upload_2:24660 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/config.yaml
+2024-02-04 16:23:12,303 INFO    wandb-upload_1:24660 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/output.log
+2024-02-04 16:23:12,355 INFO    wandb-upload_3:24660 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/wandb-summary.json
+2024-02-04 16:23:12,356 INFO    wandb-upload_4:24660 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/files/conda-environment.yaml
+2024-02-04 16:23:12,561 INFO    Thread-11 :24660 [sender.py:transition_state():617] send defer: 11
+2024-02-04 16:23:12,562 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:12,562 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-04 16:23:12,563 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:12,563 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-04 16:23:12,563 INFO    SenderThread:24660 [file_pusher.py:join():181] waiting for file pusher
+2024-02-04 16:23:12,563 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 12
+2024-02-04 16:23:12,563 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:12,563 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-04 16:23:12,564 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:12,564 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-04 16:23:12,564 INFO    SenderThread:24660 [file_stream.py:finish():595] file stream finish called
+2024-02-04 16:23:12,824 INFO    SenderThread:24660 [file_stream.py:finish():599] file stream finish is done
+2024-02-04 16:23:12,824 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 13
+2024-02-04 16:23:12,825 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:12,825 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-04 16:23:12,825 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:12,826 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-04 16:23:12,827 INFO    SenderThread:24660 [sender.py:transition_state():617] send defer: 14
+2024-02-04 16:23:12,828 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: defer
+2024-02-04 16:23:12,828 DEBUG   SenderThread:24660 [sender.py:send():382] send: final
+2024-02-04 16:23:12,828 INFO    HandlerThread:24660 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-04 16:23:12,828 DEBUG   SenderThread:24660 [sender.py:send():382] send: footer
+2024-02-04 16:23:12,828 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: defer
+2024-02-04 16:23:12,828 INFO    SenderThread:24660 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-04 16:23:12,830 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-04 16:23:12,830 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: poll_exit
+2024-02-04 16:23:12,835 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-04 16:23:12,836 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: server_info
+2024-02-04 16:23:12,837 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-04 16:23:12,837 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-04 16:23:12,837 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: server_info
+2024-02-04 16:23:12,837 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: job_info
+2024-02-04 16:23:12,900 DEBUG   SenderThread:24660 [sender.py:send_request():409] send_request: job_info
+2024-02-04 16:23:12,902 DEBUG   HandlerThread:24660 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-04 16:23:12,902 INFO    HandlerThread:24660 [handler.py:finish():869] shutting down handler
+2024-02-04 16:23:13,844 INFO    WriterThread:24660 [datastore.py:close():296] close: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/wandb/run-20240204_155000-y56c7j7r/run-y56c7j7r.wandb
+2024-02-04 16:23:13,904 INFO    SenderThread:24660 [sender.py:finish():1572] shutting down sender
+2024-02-04 16:23:13,905 INFO    SenderThread:24660 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-04 16:23:13,905 INFO    SenderThread:24660 [file_pusher.py:join():181] waiting for file pusher

@@ -27,3 +27,13 @@ config: {}
 2024-02-04 15:50:09,001 INFO    MainThread:24647 [wandb_run.py:_redirect():2153] Wrapping output streams.
 2024-02-04 15:50:09,001 INFO    MainThread:24647 [wandb_run.py:_redirect():2178] Redirects installed.
 2024-02-04 15:50:09,001 INFO    MainThread:24647 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-04 16:23:10,196 INFO    MainThread:24647 [wandb_run.py:_finish():1962] finishing run aipi549/aipi540/y56c7j7r
+2024-02-04 16:23:10,197 INFO    MainThread:24647 [jupyter.py:save_history():445] not saving jupyter history
+2024-02-04 16:23:10,197 INFO    MainThread:24647 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-04 16:23:10,198 INFO    MainThread:24647 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-02-04 16:23:10,198 INFO    MainThread:24647 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 1
+2024-02-04 16:23:10,198 INFO    MainThread:24647 [wandb_run.py:_restore():2185] restore
+2024-02-04 16:23:10,200 INFO    MainThread:24647 [wandb_run.py:_restore():2191] restore done
+2024-02-04 16:23:13,904 INFO    MainThread:24647 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-02-04 16:23:13,905 INFO    MainThread:24647 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-02-04 16:23:13,915 INFO    MainThread:24647 [wandb_run.py:_footer_sync_info():3816] logging synced files
