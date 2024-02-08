@@ -7,7 +7,7 @@ import csv
 image_folder_path = './JPEG_Dataset/'
 
 # Define the path for your output CSV file
-output_csv_path = 'ocr_results.csv'
+output_csv_path = 'tess_results.csv'
 
 # Open or create the CSV file for writing
 with open(output_csv_path, mode='w', newline='', encoding='utf-8') as file:
