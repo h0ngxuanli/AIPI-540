@@ -4,6 +4,7 @@ import PIL as pil
 import torch
 from inference import llm_postprocess, tesseract_model
 from PIL import ImageOps
+from PIL import Image, ImageOps
 
 
 device = 'cuda' if torch.cuda.is_available() else ('mps' if torch.backends.mps.is_available() else 'cpu')
@@ -32,10 +33,16 @@ if uploadbtn or st.session_state.uploadbtn_state:
     st.session_state.uploadbtn_state = True
 
     image_file = st.file_uploader("Upload image", type=["jpg", "jpeg"])
-    image_file = ImageOps.exif_transpose(image_file)
+    # image_file = ImageOps.exif_transpose(image_file)
 
-    if image_file is not None:
+    if image_file:
+        img = Image.open(image_file)
+        img = ImageOps.exif_transpose(img)
+        # st.image(img)
         st.image(image_file, caption='Image for Prediction')
+
+    # if image_file is not None:
+    #     st.image(image_file, caption='Image for Prediction')
 
 
 
