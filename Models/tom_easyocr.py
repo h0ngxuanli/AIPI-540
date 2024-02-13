@@ -2,34 +2,35 @@ import easyocr
 import os
 import csv
 
-# Initialize the EasyOCR reader
-reader = easyocr.Reader(['en'])  # Add additional languages as needed
+class EasyOCR:
+    def __init__(self, image_folder_path='./JPEG_Dataset/', output_csv_path='ocr_results_easyocr.csv'):
+        self.reader = easyocr.Reader(['en'])  # Add additional languages as needed
+        self.image_folder_path = image_folder_path
+        self.output_csv_path = output_csv_path
 
-# Set the directory containing your .jpeg images
-image_folder_path = './JPEG_Dataset/'
+    def perform_ocr(self, image_path):
+        try:
+            results = self.reader.readtext(image_path)
+            extracted_text = " ".join([text for _, text, _ in results])
+            return extracted_text
+        except Exception as e:
+            print(f"Error processing {image_path}: {e}")
+            return ""
 
-# Specify the path for the output CSV file
-output_csv_path = 'ocr_results_easyocr.csv'
+    def process_images(self):
+        with open(self.output_csv_path, mode='w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow(['Image Name', 'Extracted Text'])
 
-# Open the CSV file for writing
-with open(output_csv_path, mode='w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    # Write the header row
-    writer.writerow(['Image Name', 'Extracted Text'])
+            for image_file in os.listdir(self.image_folder_path):
+                if image_file.endswith(".jpeg"):
+                    image_path = os.path.join(self.image_folder_path, image_file)
+                    extracted_text = self.perform_ocr(image_path)
+                    writer.writerow([image_file, extracted_text])
+                    print(f"Processed {image_file}")
 
-    # Loop through all the images in the folder
-    for image_file in os.listdir(image_folder_path):
-        if image_file.endswith(".jpeg"):  # Adjust if you're using another file extension
-            image_path = os.path.join(image_folder_path, image_file)
-            try:
-                # Perform OCR on the image
-                results = reader.readtext(image_path)
-                # Concatenate all detected text pieces into one string
-                extracted_text = " ".join([text for _, text, _ in results])
-                # Write the image name and extracted text to the CSV
-                writer.writerow([image_file, extracted_text])
-                print(f"Processed {image_file}")
-            except Exception as e:
-                print(f"Error processing {image_file}: {e}")
+        print(f"OCR results saved to {self.output_csv_path}")
 
-print(f"OCR results saved to {output_csv_path}")
+# Usage
+#easyocr = EasyOCR()
+#easyocr.process_images()
