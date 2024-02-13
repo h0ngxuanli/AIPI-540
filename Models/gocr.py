@@ -3,7 +3,7 @@ import os
 import csv
 
 class GOCR:
-    def __init__(self, image_folder_path='./JPEG_Dataset/', output_csv_path='ocr_results_gocr.csv'):
+    def __init__(self, image_folder_path='../Data/JPEG_Dataset/', output_csv_path='../Results/ocr_results_gocr.csv'):
         self.image_folder_path = image_folder_path
         self.output_csv_path = output_csv_path
 

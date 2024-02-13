@@ -3,7 +3,7 @@ import os
 import csv
 
 class EasyOCR:
-    def __init__(self, image_folder_path='./JPEG_Dataset/', output_csv_path='ocr_results_easyocr.csv'):
+    def __init__(self, image_folder_path='../Data/JPEG_Dataset/', output_csv_path='../Results/ocr_results_easyocr.csv'):
         self.reader = easyocr.Reader(['en'])  # Add additional languages as needed
         self.image_folder_path = image_folder_path
         self.output_csv_path = output_csv_path
