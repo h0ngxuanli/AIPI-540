@@ -1,0 +1,201 @@
+2024-02-10 17:58:27,089 INFO    StreamThr :81797 [internal.py:wandb_internal():86] W&B internal server running at pid: 81797, started at: 2024-02-10 17:58:27.088208
+2024-02-10 17:58:27,090 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status
+2024-02-10 17:58:27,095 INFO    WriterThread:81797 [datastore.py:open_for_write():87] open: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/run-0sif2lde.wandb
+2024-02-10 17:58:27,097 DEBUG   SenderThread:81797 [sender.py:send():382] send: header
+2024-02-10 17:58:27,153 DEBUG   SenderThread:81797 [sender.py:send():382] send: run
+2024-02-10 17:58:27,402 INFO    SenderThread:81797 [dir_watcher.py:__init__():211] watching files in: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files
+2024-02-10 17:58:27,402 INFO    SenderThread:81797 [sender.py:_start_run_threads():1136] run started: 0sif2lde with start time 1707605907.087977
+2024-02-10 17:58:27,421 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: check_version
+2024-02-10 17:58:27,421 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: check_version
+2024-02-10 17:58:27,557 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: run_start
+2024-02-10 17:58:27,581 DEBUG   HandlerThread:81797 [system_info.py:__init__():27] System info init
+2024-02-10 17:58:27,581 DEBUG   HandlerThread:81797 [system_info.py:__init__():42] System info init done
+2024-02-10 17:58:27,581 INFO    HandlerThread:81797 [system_monitor.py:start():194] Starting system monitor
+2024-02-10 17:58:27,582 INFO    SystemMonitor:81797 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-10 17:58:27,582 INFO    HandlerThread:81797 [system_monitor.py:probe():214] Collecting system info
+2024-02-10 17:58:27,583 INFO    SystemMonitor:81797 [interfaces.py:start():190] Started cpu monitoring
+2024-02-10 17:58:27,583 DEBUG   HandlerThread:81797 [system_info.py:probe():151] Probing system
+2024-02-10 17:58:27,585 INFO    SystemMonitor:81797 [interfaces.py:start():190] Started disk monitoring
+2024-02-10 17:58:27,586 INFO    SystemMonitor:81797 [interfaces.py:start():190] Started memory monitoring
+2024-02-10 17:58:27,586 INFO    SystemMonitor:81797 [interfaces.py:start():190] Started network monitoring
+2024-02-10 17:58:27,601 DEBUG   HandlerThread:81797 [system_info.py:_probe_git():136] Probing git
+2024-02-10 17:58:27,650 DEBUG   HandlerThread:81797 [system_info.py:_probe_git():144] Probing git done
+2024-02-10 17:58:27,650 DEBUG   HandlerThread:81797 [system_info.py:probe():199] Probing system done
+2024-02-10 17:58:27,650 DEBUG   HandlerThread:81797 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.13', 'heartbeatAt': '2024-02-10T22:58:27.583733', 'startedAt': '2024-02-10T22:58:27.069950', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py', 'codePathLocal': 'main.py', 'codePath': 'classifier/main.py', 'git': {'remote': 'git@github.com:h0ngxuanli/AIPI-540.git', 'commit': 'bbd7dd60e984339ed0a447a778a9e4ebbfee8e92'}, 'email': 'kongyiji_is_coding@163.com', 'root': '/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540', 'host': 'lihongxuandeAir.wired.duke.local', 'username': 'lihongxuan', 'executable': '/Users/lihongxuan/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 460.4317207336426, 'used': 455.7456512451172}}, 'memory': {'total': 16.0}}
+2024-02-10 17:58:27,650 INFO    HandlerThread:81797 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-10 17:58:27,650 INFO    HandlerThread:81797 [system_monitor.py:probe():227] Publishing system info
+2024-02-10 17:58:27,650 DEBUG   HandlerThread:81797 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-10 17:58:28,406 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/conda-environment.yaml
+2024-02-10 17:58:36,259 DEBUG   HandlerThread:81797 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-10 17:58:36,260 INFO    HandlerThread:81797 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-10 17:58:36,266 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:58:36,267 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-10 17:58:36,268 DEBUG   SenderThread:81797 [sender.py:send():382] send: files
+2024-02-10 17:58:36,268 INFO    SenderThread:81797 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-10 17:58:36,275 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-10 17:58:36,276 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-10 17:58:36,277 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-10 17:58:36,277 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: python_packages
+2024-02-10 17:58:36,277 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: stop_status
+2024-02-10 17:58:36,440 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/conda-environment.yaml
+2024-02-10 17:58:36,440 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/wandb-metadata.json
+2024-02-10 17:58:36,440 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/requirements.txt
+2024-02-10 17:58:36,513 DEBUG   SenderThread:81797 [sender.py:send():382] send: telemetry
+2024-02-10 17:58:36,645 INFO    wandb-upload_0:81797 [upload_job.py:push():131] Uploaded file /var/folders/_s/sgnns_xx60vdrf8dbqgsl7400000gn/T/tmp5dk0wcawwandb/g1k5ethb-wandb-metadata.json
+2024-02-10 17:58:37,445 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/output.log
+2024-02-10 17:58:38,523 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:58:39,454 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/output.log
+2024-02-10 17:58:43,541 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:58:48,573 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:58:51,281 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-10 17:58:51,282 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-10 17:58:51,282 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: stop_status
+2024-02-10 17:58:54,399 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:58:59,424 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:58:59,587 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/config.yaml
+2024-02-10 17:59:04,544 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:59:06,280 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-10 17:59:06,280 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: stop_status
+2024-02-10 17:59:06,285 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-10 17:59:09,874 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:59:09,881 DEBUG   SenderThread:81797 [sender.py:send():382] send: exit
+2024-02-10 17:59:09,881 INFO    SenderThread:81797 [sender.py:send_exit():589] handling exit code: 1
+2024-02-10 17:59:09,882 INFO    SenderThread:81797 [sender.py:send_exit():591] handling runtime: 42
+2024-02-10 17:59:09,883 INFO    SenderThread:81797 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-10 17:59:09,885 INFO    SenderThread:81797 [sender.py:send_exit():597] send defer
+2024-02-10 17:59:09,885 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,886 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-10 17:59:09,887 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,888 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-10 17:59:09,888 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 1
+2024-02-10 17:59:09,889 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,889 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-10 17:59:09,890 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,890 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-10 17:59:09,890 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 2
+2024-02-10 17:59:09,890 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,890 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-10 17:59:09,890 INFO    HandlerThread:81797 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-10 17:59:09,890 DEBUG   SystemMonitor:81797 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-10 17:59:09,891 DEBUG   SystemMonitor:81797 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-10 17:59:09,891 INFO    HandlerThread:81797 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-10 17:59:09,891 DEBUG   SystemMonitor:81797 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-10 17:59:09,892 INFO    HandlerThread:81797 [interfaces.py:finish():202] Joined disk monitor
+2024-02-10 17:59:09,894 INFO    HandlerThread:81797 [interfaces.py:finish():202] Joined memory monitor
+2024-02-10 17:59:09,894 INFO    HandlerThread:81797 [interfaces.py:finish():202] Joined network monitor
+2024-02-10 17:59:09,895 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,895 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-10 17:59:09,895 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 3
+2024-02-10 17:59:09,896 DEBUG   SenderThread:81797 [sender.py:send():382] send: stats
+2024-02-10 17:59:09,896 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,896 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-10 17:59:09,896 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,896 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-10 17:59:09,897 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 4
+2024-02-10 17:59:09,897 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,897 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-10 17:59:09,897 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,897 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-10 17:59:09,897 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 5
+2024-02-10 17:59:09,897 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,897 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-10 17:59:09,898 DEBUG   SenderThread:81797 [sender.py:send():382] send: summary
+2024-02-10 17:59:09,898 INFO    SenderThread:81797 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-10 17:59:09,898 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,898 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-10 17:59:09,898 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 6
+2024-02-10 17:59:09,898 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,898 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-10 17:59:09,899 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,899 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-10 17:59:09,899 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 7
+2024-02-10 17:59:09,899 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: status_report
+2024-02-10 17:59:09,899 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:09,899 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-10 17:59:09,899 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:09,899 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-10 17:59:10,608 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 8
+2024-02-10 17:59:10,608 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:10,608 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-10 17:59:10,609 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:10,609 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-10 17:59:10,609 INFO    SenderThread:81797 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-10 17:59:10,610 INFO    SenderThread:81797 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-10 17:59:10,633 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/output.log
+2024-02-10 17:59:10,634 INFO    Thread-12 :81797 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/wandb-summary.json
+2024-02-10 17:59:10,689 INFO    SenderThread:81797 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-10 17:59:10,692 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 9
+2024-02-10 17:59:10,692 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:10,693 DEBUG   SenderThread:81797 [sender.py:send():382] send: artifact
+2024-02-10 17:59:10,693 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-10 17:59:10,883 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-10 17:59:11,081 INFO    SenderThread:81797 [sender.py:send_artifact():1494] sent artifact job-git_github.com_h0ngxuanli_AIPI-540.git_classifier_main.py - {'id': 'QXJ0aWZhY3Q6NzE5MTY1ODQz', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzODgyMTA3NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzE5MTY1ODQz', 'versionIndex': 0}}}
+2024-02-10 17:59:11,082 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:11,082 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-10 17:59:11,082 INFO    SenderThread:81797 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-10 17:59:11,639 INFO    SenderThread:81797 [dir_watcher.py:finish():388] scan: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files
+2024-02-10 17:59:11,640 INFO    SenderThread:81797 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/requirements.txt requirements.txt
+2024-02-10 17:59:11,640 INFO    SenderThread:81797 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/output.log output.log
+2024-02-10 17:59:11,641 INFO    SenderThread:81797 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/config.yaml config.yaml
+2024-02-10 17:59:11,649 INFO    SenderThread:81797 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/wandb-summary.json wandb-summary.json
+2024-02-10 17:59:11,655 INFO    SenderThread:81797 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/conda-environment.yaml conda-environment.yaml
+2024-02-10 17:59:11,658 INFO    SenderThread:81797 [dir_watcher.py:finish():402] scan save: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/wandb-metadata.json wandb-metadata.json
+2024-02-10 17:59:11,663 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 10
+2024-02-10 17:59:11,664 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: poll_exit
+2024-02-10 17:59:11,666 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:11,667 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-10 17:59:11,667 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:11,667 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-10 17:59:11,667 INFO    SenderThread:81797 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-10 17:59:11,862 INFO    wandb-upload_1:81797 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/output.log
+2024-02-10 17:59:11,890 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-10 17:59:11,892 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: poll_exit
+2024-02-10 17:59:11,928 INFO    wandb-upload_0:81797 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/requirements.txt
+2024-02-10 17:59:11,988 INFO    wandb-upload_3:81797 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/wandb-summary.json
+2024-02-10 17:59:11,989 INFO    wandb-upload_2:81797 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/config.yaml
+2024-02-10 17:59:11,998 INFO    wandb-upload_4:81797 [upload_job.py:push():131] Uploaded file /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/files/conda-environment.yaml
+2024-02-10 17:59:12,206 INFO    Thread-11 :81797 [sender.py:transition_state():617] send defer: 11
+2024-02-10 17:59:12,235 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:12,243 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-10 17:59:12,245 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:12,245 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-10 17:59:12,245 INFO    SenderThread:81797 [file_pusher.py:join():181] waiting for file pusher
+2024-02-10 17:59:12,246 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 12
+2024-02-10 17:59:12,247 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:12,248 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-10 17:59:12,252 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:12,252 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-10 17:59:12,252 INFO    SenderThread:81797 [file_stream.py:finish():595] file stream finish called
+2024-02-10 17:59:12,325 INFO    SenderThread:81797 [file_stream.py:finish():599] file stream finish is done
+2024-02-10 17:59:12,326 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 13
+2024-02-10 17:59:12,326 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:12,326 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-10 17:59:12,327 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:12,327 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-10 17:59:12,327 INFO    SenderThread:81797 [sender.py:transition_state():617] send defer: 14
+2024-02-10 17:59:12,328 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: defer
+2024-02-10 17:59:12,328 DEBUG   SenderThread:81797 [sender.py:send():382] send: final
+2024-02-10 17:59:12,328 INFO    HandlerThread:81797 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-10 17:59:12,328 DEBUG   SenderThread:81797 [sender.py:send():382] send: footer
+2024-02-10 17:59:12,329 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: defer
+2024-02-10 17:59:12,329 INFO    SenderThread:81797 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-10 17:59:12,329 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-10 17:59:12,330 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: poll_exit
+2024-02-10 17:59:12,330 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-10 17:59:12,331 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: poll_exit
+2024-02-10 17:59:12,331 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: server_info
+2024-02-10 17:59:12,332 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: server_info
+2024-02-10 17:59:12,335 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-10 17:59:12,335 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-10 17:59:12,336 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-10 17:59:12,338 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: job_info
+2024-02-10 17:59:12,398 DEBUG   SenderThread:81797 [sender.py:send_request():409] send_request: job_info
+2024-02-10 17:59:12,399 INFO    MainThread:81797 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-02-10 17:59:12,399 INFO    MainThread:81797 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-02-10 17:59:12,399 INFO    MainThread:81797 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-02-10 17:59:12,400 DEBUG   HandlerThread:81797 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-10 17:59:12,400 INFO    HandlerThread:81797 [handler.py:finish():869] shutting down handler
+2024-02-10 17:59:13,342 INFO    WriterThread:81797 [datastore.py:close():296] close: /Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/wandb/run-20240210_175827-0sif2lde/run-0sif2lde.wandb
+2024-02-10 17:59:13,403 INFO    SenderThread:81797 [sender.py:finish():1572] shutting down sender
+2024-02-10 17:59:13,404 INFO    SenderThread:81797 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-10 17:59:13,404 INFO    SenderThread:81797 [file_pusher.py:join():181] waiting for file pusher
