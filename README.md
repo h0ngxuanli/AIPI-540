@@ -33,4 +33,4 @@ We have developed a user interface using Streamlit. The `UI.py` file in the `UI`
 The `Results` folder contains the output from each of the OCR methods tested. This allows us to compare the performance of each method and make informed decisions about which methods to use or further develop.
 
 ## Weights & Biases Integration
-We have documented our testing, tabulation, reports, and comparisons between our different approaches on the Weights & Biases platform. You can view our project here: https://wandb.ai/aipi549/AIPI-540-classifier 
+We have documented our testing, tabulation, reports, and comparisons between our different approaches on the Weights & Biases platform. You can view our project here: https://wandb.ai/aipi549/AIPI-540-classifier and the [Results from all of the models on our dataset](https://wandb.ai/aipi549/aipi540/reports/OCR-BenchMark--Vmlldzo2ODEwMjU2?accessToken=rr7c538ke1glhoocgq9zc1c12mxwon7i4rrqojrpef8hm7m6nfzh3s2u7f3f6q61)
