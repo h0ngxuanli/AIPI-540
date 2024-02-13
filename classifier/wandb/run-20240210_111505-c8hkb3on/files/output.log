@@ -1,0 +1,45 @@
+[34m[1mwandb[39m[22m: Downloading large artifact chatgpt4_labeling:v2, 1172.16MB. 132 files...
+[34m[1mwandb[39m[22m:   132 of 132 files downloaded.
+Done. 0:0:2.1
+wandb: Network error (ConnectionError), entering retry loop.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/logging/__init__.py", line 1087, in emit
+    self.flush()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/logging/__init__.py", line 1067, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/threading.py", line 937, in _bootstrap
+    self._bootstrap_inner()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 279, in _process
+    self._hm.handle(record)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/handler.py", line 138, in handle
+    handler(record)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/handler.py", line 146, in handle_request
+    logger.debug(f"handle_request: {request_type}")
+Message: 'handle_request: status_report'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/logging/__init__.py", line 1087, in emit
+    self.flush()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/logging/__init__.py", line 1067, in flush
+    self.stream.flush()
+OSError: [Errno 28] No space left on device
+Call stack:
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/threading.py", line 937, in _bootstrap
+    self._bootstrap_inner()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/vendor/watchdog_0_9_0/wandb_watchdog/observers/api.py", line 199, in run
+    self.dispatch_events(self.event_queue, self.timeout)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/wandb/vendor/watchdog_0_9_0/wandb_watchdog/observers/api.py", line 368, in dispatch_events
+    handler.dispatch(event)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3

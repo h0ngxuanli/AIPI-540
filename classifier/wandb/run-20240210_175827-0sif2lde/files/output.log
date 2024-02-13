@@ -1,0 +1,10 @@
+
+Processing:   0%|                                                                                                                                            | 0/30 [00:33<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 62, in <module>
+    main()
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 54, in main
+    model_conv = train_model(run, model_conv, config.model_name, dataloaders, criterion, optimizer_conv,
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/utils/train.py", line 80, in train_model
+    epoch_loss = running_loss / len(dataloaders[[phase]].dataset)
+TypeError: unhashable type: 'list'

@@ -1,0 +1,11 @@
+Processing: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 62, in <module>
+    main()
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 54, in main
+    model_conv = train_model(run, model_conv, config.model_name, dataloaders, criterion, optimizer_conv,
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/utils/train.py", line 30, in train_model
+    for epoch in tqdm(epochs, desc='Processing'):
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/tqdm/std.py", line 1180, in __iter__
+    for obj in iterable:
+TypeError: 'int' object is not iterable

@@ -1,0 +1,25 @@
+
+Processing:   0%|                                                                                                                                            | 0/30 [00:00<?, ?it/s]
+Processing:   0%|                                                                                                                                            | 0/30 [00:53<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 62, in <module>
+    main()
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 54, in main
+    model_conv = train_model(run, model_conv, config.model_name, dataloaders, criterion, optimizer_conv,
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/utils/train.py", line 49, in train_model
+    for i, (inputs, labels) in enumerate(dataloaders[phase]):
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1317, in _next_data
+    self._shutdown_workers()
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/multiprocessing/connection.py", line 936, in wait
+    ready = selector.select(timeout)
+  File "/Users/lihongxuan/opt/anaconda3/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

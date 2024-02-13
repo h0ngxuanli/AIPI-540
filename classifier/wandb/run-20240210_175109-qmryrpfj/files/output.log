@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 62, in <module>
+    main()
+  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 55, in main
+    exp_lr_scheduler, num_epochs=config.epoch)
+AttributeError: 'Namespace' object has no attribute 'epoch'
