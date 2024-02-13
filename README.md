@@ -30,6 +30,12 @@ Run `make install` to install dependencies. This installs dependencies located i
 We have developed a user interface using Streamlit. The `UI.py` file in the `UI` folder runs a web server that deploys our basic pipeline. Users can upload images and receive back an allergy list.
 
 ## How to Run
+You should obtain a OpenAI API key before running the project. The key should be stored `.env` file under the root folder of the project. The `.env` file should look like this:
+```
+# Once you add your API key below, make sure to not share it with anyone! The API key should remain private.
+OPENAI_API_KEY=abc123
+```
+
 1. python -m venv venv
 2. source venv/bin/activate
 3. pip install -r requirements.txt
