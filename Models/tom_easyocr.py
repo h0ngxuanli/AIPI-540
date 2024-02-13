@@ -31,6 +31,8 @@ class EasyOCR:
 
         print(f"OCR results saved to {self.output_csv_path}")
 
-# Usage
-#easyocr = EasyOCR()
-#easyocr.process_images()
+if __name__ == "__main__":
+    image_folder_path = '../Data/JPEG_Dataset/'  # Set the path to your images
+    output_csv_path = 'ocr_results.csv'  # Define the path for your output CSV file
+    ocr_processor = EasyOCR(image_folder_path, output_csv_path)
+    ocr_processor.process_images()
