@@ -1,5 +1,7 @@
+
+Data/*
+.ipynb_checkpoints
 /Dataset/*
 /JPEG_Dataset/*
 /Synthetic_Dataset/*
-Data/*
 .history/*
