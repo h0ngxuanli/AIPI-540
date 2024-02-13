@@ -5,7 +5,7 @@ import pytesseract
 from dotenv import dotenv_values
 
 
-config = dotenv_values(".env")
+config = dotenv_values("../.env")
 
 
 def llm_postprocess(ocr_text):
