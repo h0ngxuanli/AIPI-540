@@ -12,6 +12,13 @@ if device == 'mps':
     torch.mps.empty_cache()
 
 
+st.set_page_config(page_title="Black Ice")
+
+
+st.header('Black Ice', divider='rainbow')
+# st.header('_Streamlit_ is :blue[cool] :sunglasses:')
+
+
 # best_model_btn = st.button("Load Best Models")
 
 # if "best_model_btn_btn_state" not in st.session_state:
