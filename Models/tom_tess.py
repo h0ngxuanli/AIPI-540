@@ -32,6 +32,6 @@ class OCRProcessor:
 # Usage example
 if __name__ == "__main__":
     image_folder_path = '../Data/JPEG_Dataset/'  # Set the path to your images
-    output_csv_path = 'ocr_results.csv'  # Define the path for your output CSV file
+    output_csv_path = 'tess_results.csv'  # Define the path for your output CSV file
     ocr_processor = OCRProcessor(image_folder_path, output_csv_path)
     ocr_processor.process_images()
