@@ -37,7 +37,7 @@ if uploadbtn or st.session_state.uploadbtn_state:
 
 
 
-extractTextbtn = st.button("Extract Text")
+extractTextbtn = st.button("Get Allergies")
 
 if "extractTextbtn_state" not in st.session_state:
     st.session_state.extractTextbtn_state = False
