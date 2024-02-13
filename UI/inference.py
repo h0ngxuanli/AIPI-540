@@ -38,7 +38,7 @@ def tesseract_model(image_path):
     image = Image.open(image_path)
     ocr_text = pytesseract.image_to_string(image)
     allergies = llm_postprocess(ocr_text)
-    return allergies
+    return allergies, ocr_text
 
 
 

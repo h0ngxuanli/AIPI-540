@@ -5,3 +5,4 @@ Data/*
 /JPEG_Dataset/*
 /Synthetic_Dataset/*
 .history/*
+__pycache__?/
