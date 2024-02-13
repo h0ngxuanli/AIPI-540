@@ -41,3 +41,6 @@ The `Results` folder contains the output from each of the OCR methods tested. Th
 
 ## Weights & Biases Integration
 We have documented our testing, tabulation, reports, and comparisons between our different approaches on the Weights & Biases platform. You can view our project here: https://wandb.ai/aipi549/AIPI-540-classifier and the [Results from all of the models on our dataset](https://wandb.ai/aipi549/aipi540/reports/OCR-BenchMark--Vmlldzo2ODEwMjU2?accessToken=rr7c538ke1glhoocgq9zc1c12mxwon7i4rrqojrpef8hm7m6nfzh3s2u7f3f6q61)
+
+## Slides
+[Access to our slides](https://docs.google.com/presentation/d/15MNsctdNaPQHyF_QeDA81SoFeIv6plIoP98E4iScOr0/edit?usp=sharing)
