@@ -37,7 +37,11 @@ def llm_postprocess(ocr_text):
 def tesseract_model(image_path):
     image = Image.open(image_path)
     ocr_text = pytesseract.image_to_string(image)
-    allergies = llm_postprocess(ocr_text)
+
+    if ocr_text != '':
+        allergies = llm_postprocess(ocr_text)
+    else:
+        return False, 'Please give better quality Image'
     return allergies, ocr_text
 
 

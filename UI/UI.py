@@ -65,8 +65,11 @@ if extractTextbtn or st.session_state.extractTextbtn_state:
 
     allergies,ocr_text = tesseract_model(image_file)
 
-    st.text(allergies)
-    st.text(ocr_text)
+    if allergies == False:
+        st.text(ocr_text)
+    else:
+        st.text(allergies)
+        st.text(ocr_text)
 
     # llm_postprocess(ocr_text)(image_file)
 
