@@ -2,36 +2,39 @@ import pytesseract
 import os
 from PIL import Image
 
-# Specify the directory containing your JPEG images
-image_folder_path = './JPEG_Dataset/'
+class TesseractOCR:
+    def __init__(self, image_folder_path, output_file_path):
+        self.image_folder_path = image_folder_path
+        self.output_file_path = output_file_path
+        # Uncomment and set the path according to your Tesseract installation
+        # pytesseract.pytesseract.tesseract_cmd = r'Path_To_Tesseract_Executable'
 
-# Output file to save the OCR results
-output_file_path = 'tess3_results.txt'
+    def ocr_image(self, image_path):
+        """Perform OCR on a single image and return the text."""
+        try:
+            img = Image.open(image_path)
+            # Using Tesseract 3 configuration
+            text = pytesseract.image_to_string(img, lang='eng', config='--oem 0')
+            return text
+        except Exception as e:
+            print(f"Error processing {image_path}: {e}")
+            return None
 
-# If necessary, specify the path to your Tesseract executable
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Example for Windows
-# pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'  # Example for Linux
+    def process_images(self):
+        """Process all images in the directory and write OCR results to a file."""
+        with open(self.output_file_path, 'w', encoding='utf-8') as output_file:
+            for image_file in os.listdir(self.image_folder_path):
+                if image_file.lower().endswith((".jpg", ".jpeg")):  # Adjust for other formats if necessary
+                    image_path = os.path.join(self.image_folder_path, image_file)
+                    ocr_text = self.ocr_image(image_path)
+                    if ocr_text:
+                        output_file.write(f"OCR Results for {image_file}:\n{ocr_text}\n")
+                        output_file.write("-" * 80 + "\n")  # Separator between results
+        print(f"OCR results have been saved to {self.output_file_path}")
 
-# Function to perform OCR using Tesseract 3
-def ocr_image(image_path):
-    try:
-        # Open the image
-        img = Image.open(image_path)
-        # Perform OCR using Tesseract
-        text = pytesseract.image_to_string(img, lang='eng', config='--oem 0')  # oem 0 for Tesseract 3
-        return text
-    except Exception as e:
-        print(f"Error processing {image_path}: {e}")
-        return None
-
-# Process each image in the directory and write results to the output file
-with open(output_file_path, 'w', encoding='utf-8') as output_file:
-    for image_file in os.listdir(image_folder_path):
-        if image_file.lower().endswith((".jpg", ".jpeg")):  # Adjust for other image formats if necessary
-            image_path = os.path.join(image_folder_path, image_file)
-            ocr_text = ocr_image(image_path)
-            if ocr_text:
-                output_file.write(f"OCR Results for {image_file}:\n{ocr_text}\n")
-                output_file.write("-" * 80 + "\n")  # Separator between image results
-
-print(f"OCR results have been saved to {output_file_path}")
+# Example usage
+if __name__ == "__main__":
+    image_folder_path = '../JPEG_Dataset/'
+    output_file_path = 'tess3_results.txt'
+    ocr = TesseractOCR(image_folder_path, output_file_path)
+    ocr.process_images()

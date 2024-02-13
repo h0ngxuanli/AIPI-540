@@ -3,58 +3,35 @@ from PIL import Image
 import pytesseract
 import csv
 
-# Set the path to your images
-image_folder_path = './JPEG_Dataset/'
+class OCRProcessor:
+    def __init__(self, image_folder_path, output_csv_path):
+        self.image_folder_path = image_folder_path
+        self.output_csv_path = output_csv_path
 
-# # Define the path for your output CSV file
-# output_csv_path = 'ocr_results.csv'
+    def process_images(self):
+        """Process all images in the specified folder and save results to a CSV file."""
+        with open(self.output_csv_path, mode='w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow(['Image Name', 'Extracted Text'])  # Write the header row
+            for image_file in os.listdir(self.image_folder_path):
+                if image_file.endswith(".jpeg"):  # Change this to match your file type
+                    self.process_single_image(image_file, writer)
+        print(f"OCR results saved to {self.output_csv_path}")
 
-# # Open or create the CSV file for writing
-# with open(output_csv_path, mode='w', newline='', encoding='utf-8') as file:
-#     writer = csv.writer(file)
-#     # Write the header row
-#     writer.writerow(['Image Name', 'Extracted Text'])
+    def process_single_image(self, image_file, writer):
+        """Process a single image, extract text using OCR, and write to the CSV."""
+        image_path = os.path.join(self.image_folder_path, image_file)
+        try:
+            img = Image.open(image_path)
+            text = pytesseract.image_to_string(img)
+            writer.writerow([image_file, text])
+            print(f"Processed {image_file}")
+        except Exception as e:
+            print(f"Error processing {image_file}: {e}")
 
-#     # Loop through all the images in the folder
-#     for image_file in os.listdir(image_folder_path):
-#         if image_file.endswith(".jpg"):
-#             image_path = os.path.join(image_folder_path, image_file)
-#             try:
-#                 # Open the image
-#                 img = Image.open(image_path)
-#                 # Use pytesseract to do OCR on the image
-#                 text = pytesseract.image_to_string(img)
-#                 # Write the image name and extracted text to the CSV
-#                 writer.writerow([image_file, text])
-#                 print(f"Processed {image_file}")
-#             except Exception as e:
-#                 print(f"Error processing {image_file}: {e}")
-
-# print(f"OCR results saved to {output_csv_path}")
-# Define the path for your output CSV file
-output_csv_path = 'tess_results.csv'
-
-# Open or create the CSV file for writing
-with open(output_csv_path, mode='w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    # Write the header row
-    writer.writerow(['Image Name', 'Extracted Text'])
-
-    # Loop through all the images in the folder
-    for image_file in os.listdir(image_folder_path):
-        if image_file.endswith(".jpeg"):
-            image_path = os.path.join(image_folder_path, image_file)
-            try:
-                # Open the image
-                img = Image.open(image_path)
-                # Use pytesseract to do OCR on the image
-                text = pytesseract.image_to_string(img)
-                # Write the image name and extracted text to the CSV
-                writer.writerow([image_file, text])
-                print(f"Processed {image_file}")
-            except Exception as e:
-                print(f"Error processing {image_file}: {e}")
-
-print(f"OCR results saved to {output_csv_path}")
-
-
+# Usage example
+if __name__ == "__main__":
+    image_folder_path = '../JPEG_Dataset/'  # Set the path to your images
+    output_csv_path = 'ocr_results.csv'  # Define the path for your output CSV file
+    ocr_processor = OCRProcessor(image_folder_path, output_csv_path)
+    ocr_processor.process_images()
