@@ -6,6 +6,8 @@ import csv
 # Set the path to your images
 image_folder_path = './JPEG_Dataset/'
 
+
+
 # # Define the path for your output CSV file
 # output_csv_path = 'ocr_results.csv'
 
