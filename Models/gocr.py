@@ -32,6 +32,6 @@ class GOCR:
 
 if __name__ == "__main__":
     image_folder_path = '../Data/JPEG_Dataset/'  # Set the path to your images
-    output_csv_path = 'ocr_results_gocr.csv'  # Define the path for your output CSV file
+    output_csv_path = '../Results/ocr_results_gocr.csv'  # Define the path for your output CSV file
     ocr_processor = GOCR(image_folder_path, output_csv_path)
     ocr_processor.process_images()

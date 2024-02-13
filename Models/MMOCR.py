@@ -33,7 +33,7 @@ class OCRProcessor:
                 ocr_text[image] = ''
         return ocr_text
 
-    def save_results_to_csv(self, ocr_text, output_file='OCRData.csv'):
+    def save_results_to_csv(self, ocr_text, output_file='../Results/OCRData.csv'):
         """Save the OCR results to a CSV file."""
         df = pd.DataFrame.from_dict({'Images': list(ocr_text.keys()), 'Text-MMOcr': list(ocr_text.values())})
         df.to_csv(output_file, index=False)
@@ -44,4 +44,4 @@ if __name__ == "__main__":
     ocr_processor = OCRProcessor(det_model='DBNet', rec_model='SAR')
     image_dir = '../Data/JPEG_Dataset/'
     ocr_results = ocr_processor.process_images(image_dir)
-    ocr_processor.save_results_to_csv(ocr_results, 'OCRData.csv')
+    ocr_processor.save_results_to_csv(ocr_results, '../Results/OCRData.csv')

@@ -35,6 +35,6 @@ class TesseractOCR:
 # Example usage
 if __name__ == "__main__":
     image_folder_path = '../Data/JPEG_Dataset/'
-    output_file_path = 'tess3_results.txt'
+    output_file_path = '../Results/tess3_results.txt'
     ocr = TesseractOCR(image_folder_path, output_file_path)
     ocr.process_images()
