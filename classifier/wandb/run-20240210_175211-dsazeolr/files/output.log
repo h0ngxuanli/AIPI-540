@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 62, in <module>
-    main()
-  File "/Users/lihongxuan/Desktop/AIPI/Courses/AIPI540/AIPI-540/classifier/main.py", line 54, in main
-    model_conv = train_model(run, model_conv, config.model_name, dataloaders, criterion, optimizer_conv,
-TypeError: train_model() got an unexpected keyword argument 'num_epochs'
