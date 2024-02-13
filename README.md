@@ -19,7 +19,8 @@ We have explored and implemented several OCR methods in this project:
 2. **Tesseract**: A popular OCR engine that uses deep learning techniques.
 3. **ChatGPT Vision**: A novel approach that directly converts images to text.
 4. **EasyOCR Model**: A model from the EasyOCR library that we have fine-tuned on our dataset.
-5. **Final Model**: Our custom model that combines Tesseract and a data transformation pipeline. This model preprocesses the image, applies OCR using Tesseract, and then processes the OCR text with ChatGPT to extract the ingredient list.
+5. **MMOCR Model**: A highly sophisticated library, leveraging state-of-the-art models to optimize images for text detection and recognition tasks.
+6. **Final Model**: Our custom model that combines Tesseract and a data transformation pipeline. This model preprocesses the image, applies OCR using Tesseract, and then processes the OCR text with ChatGPT to extract the ingredient list.
 
 Each of these methods has corresponding files in the `Models` and `Notebooks` folders.
 
