@@ -1,22 +1,32 @@
 # OCR Project
 
+## Project Structure
+The project is organized into four main directories: `Models`, `Results`, `UI`, and `Notebooks`.
+
+- `Models`: Contains the models for each OCR method tested.
+- `Results`: Stores the output from each of the OCR methods.
+- `UI`: Houses the Streamlit `UI.py` file that runs a web server.
+- `Notebooks`: Contains notebooks for each OCR method.
+
 ## Overview
-This project aims to extract text from images using various Optical Character Recognition (OCR) methods. The project consists of a `Dataset` folder with the original images in their original formats, and a folder called `JPEG_Dataset` that consists of the images in jpg format. The images are labelled from `1.jpg` to `132.jpg`.
+This project focuses on the extraction of text from images using various Optical Character Recognition (OCR) methods. The goal is to accurately and efficiently convert image-based text into machine-readable text. The OCR method extracts the text, and our web server component uses ChaTGPT to extract the relevant information (allergies and dietary restrictions) from the text.
 
-## OCR Methods Tested
-We tested a number of different OCR methods, including:
+## OCR Methods
+We have explored and implemented several OCR methods in this project:
 
-1. **GOCR**: A traditional OCR approach was used to set a baseline.
-2. **Tesseract**: An out-of-the-box deep learning OCR model.
-3. **ChatGPT Vision**: Used to directly convert the image to the required ingredients list.
-4. **EasyOCR Model**: EasyOCR model finetuned on our dataset.
-4. **Final Model**: Our final model combines Tesseract with a data transformation pipeline to apply transformations to preprocess the image, and uses the OCR text from Tesseract to be processed by ChatGPT to extract the ingredient list.
+1. **GOCR**: A traditional OCR approach that provides a baseline for our experiments.
+2. **Tesseract**: A popular OCR engine that uses deep learning techniques.
+3. **ChatGPT Vision**: A novel approach that directly converts images to text.
+4. **EasyOCR Model**: A model from the EasyOCR library that we have fine-tuned on our dataset.
+5. **Final Model**: Our custom model that combines Tesseract and a data transformation pipeline. This model preprocesses the image, applies OCR using Tesseract, and then processes the OCR text with ChatGPT to extract the ingredient list.
 
-## Weights & Biases
+Each of these methods has corresponding files in the `Models` and `Notebooks` folders.
 
-Most of our testing, tabulation, reports, and comparisons between our different approaches was documented on the weights and biases platform: https://wandb.ai/aipi549/AIPI-540-classifier 
+## User Interface
+We have developed a user interface using Streamlit. The `UI.py` file in the `UI` folder runs a web server that deploys our basic pipeline. Users can upload images and receive back an allergy list.
 
-## Scripts
-The following scripts are part of the project:
-1. Rename Files - basic python nb to rename and convert to jpeg all the image files.
-2. tom_tess.py: This tesseract script opens each image in the `JPEG_Dataset` folder, uses pytesseract to do OCR on the image, and writes the image name and extracted text to a CSV file named `ocr_results.csv`, and a  condensed version of the extracted text to the first 100 characters saved to a CSV file named `ocr_results_condensed.csv`.
+## Results
+The `Results` folder contains the output from each of the OCR methods tested. This allows us to compare the performance of each method and make informed decisions about which methods to use or further develop.
+
+## Weights & Biases Integration
+We have documented our testing, tabulation, reports, and comparisons between our different approaches on the Weights & Biases platform. You can view our project here: https://wandb.ai/aipi549/AIPI-540-classifier 
