@@ -24,6 +24,8 @@ We have explored and implemented several OCR methods in this project:
 
 Each of these methods has corresponding files in the `Models` and `Notebooks` folders.
 
+Run `make install` to install dependencies. This installs dependencies located in `requirements.txt`. `cd` into `Models` to run each model.
+
 ## User Interface
 We have developed a user interface using Streamlit. The `UI.py` file in the `UI` folder runs a web server that deploys our basic pipeline. Users can upload images and receive back an allergy list.
 
