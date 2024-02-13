@@ -12,16 +12,16 @@ if device == 'mps':
     torch.mps.empty_cache()
 
 
-best_model_btn = st.button("Load Best Models")
+# best_model_btn = st.button("Load Best Models")
 
-if "best_model_btn_btn_state" not in st.session_state:
-    st.session_state.best_model_btn_btn_state = None
+# if "best_model_btn_btn_state" not in st.session_state:
+#     st.session_state.best_model_btn_btn_state = None
 
-if best_model_btn or st.session_state.best_model_btn_btn_state:
-    st.session_state.best_model_btn_btn_state = True
+# if best_model_btn or st.session_state.best_model_btn_btn_state:
+#     st.session_state.best_model_btn_btn_state = True
 
 
-    st.write("Models Loaded")
+#     st.write("Models Loaded")
 
 
 uploadbtn = st.button("Upload Image")
@@ -33,13 +33,15 @@ if uploadbtn or st.session_state.uploadbtn_state:
     st.session_state.uploadbtn_state = True
 
     image_file = st.file_uploader("Upload image", type=["jpg", "jpeg"])
-    # image_file = ImageOps.exif_transpose(image_file)
+    
+    # if image_file:
+    #     image_file = ImageOps.exif_transpose(image_file)
 
     if image_file:
         img = Image.open(image_file)
         img = ImageOps.exif_transpose(img)
         # st.image(img)
-        st.image(image_file, caption='Image for Prediction')
+        st.image(img, caption='Image for Prediction')
 
     # if image_file is not None:
     #     st.image(image_file, caption='Image for Prediction')
