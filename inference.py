@@ -1,7 +1,11 @@
 from openai import OpenAI
 from PIL import Image
 import pytesseract
+# from dotenv import load_dotenv
+from dotenv import dotenv_values
 
+
+config = dotenv_values(".env")
 
 
 def llm_postprocess(ocr_text):
@@ -10,7 +14,8 @@ def llm_postprocess(ocr_text):
             Could you please identify the ingredients and return the potential allergy ingredient? 
             Your return only includes the alleries with bullet points.
             """
-    client = OpenAI()
+    print(config["API_KEY"])
+    client = OpenAI(api_key=config["API_KEY"])
     response = client.chat.completions.create(
         model='gpt-4-vision-preview', #gpt-4
         messages=[
