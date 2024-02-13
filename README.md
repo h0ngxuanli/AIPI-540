@@ -29,6 +29,13 @@ Run `make install` to install dependencies. This installs dependencies located i
 ## User Interface
 We have developed a user interface using Streamlit. The `UI.py` file in the `UI` folder runs a web server that deploys our basic pipeline. Users can upload images and receive back an allergy list.
 
+## How to Run
+1. python -m venv venv
+2. source venv/bin/activate
+3. pip install -r requirements.txt
+4. streamlit run UI/UI.py
+
+
 ## Results
 The `Results` folder contains the output from each of the OCR methods tested. This allows us to compare the performance of each method and make informed decisions about which methods to use or further develop.
 
