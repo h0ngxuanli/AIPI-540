@@ -1,12 +1,13 @@
 # OCR Project
 
 ## Project Structure
-The project is organized into four main directories: `Models`, `Results`, `UI`, and `Notebooks`.
+The project is organized into 5 main directories: `Models`, `Results`, `UI`,`Notebooks`, and `Data`.
 
 - `Models`: Contains the models for each OCR method tested.
 - `Results`: Stores the output from each of the OCR methods.
 - `UI`: Houses the Streamlit `UI.py` file that runs a web server.
 - `Notebooks`: Contains notebooks for each OCR method.
+- `Data`: Contains our custom compiled dataset of images of ingredient lists and backs of various packaged food products.
 
 ## Overview
 This project focuses on the extraction of text from images using various Optical Character Recognition (OCR) methods. The goal is to accurately and efficiently convert image-based text into machine-readable text. The OCR method extracts the text, and our web server component uses ChaTGPT to extract the relevant information (allergies and dietary restrictions) from the text.
