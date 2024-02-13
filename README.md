@@ -30,23 +30,18 @@ Run `make install` to install dependencies. This installs dependencies located i
 We have developed a user interface using Streamlit. The `UI.py` file in the `UI` folder runs a web server that deploys our basic pipeline. Users can upload images and receive back an allergy list.
 
 ## How to Run
-You should obtain a OpenAI API key before running the project. The key should be stored `.env` file under the root folder of the project. The `.env` file should look like this:
-```
-# Once you add your API key below, make sure to not share it with anyone! The API key should remain private.
-OPENAI_API_KEY=abc123
-```
-
 1. python -m venv venv
 2. source venv/bin/activate
 3. pip install -r requirements.txt
-4. streamlit run UI/UI.py
+4. add OpenAI API_EKY to the `.env` file
+5. streamlit run UI/UI.py
 
 
 ## Results
 The `Results` folder contains the output from each of the OCR methods tested. This allows us to compare the performance of each method and make informed decisions about which methods to use or further develop.
 
 ## Weights & Biases Integration
-We have documented our testing, tabulation, reports, and comparisons between our different approaches on the Weights & Biases platform. You can view our project here: https://wandb.ai/aipi549/AIPI-540-classifier and the [Results from all of the models on our dataset](https://wandb.ai/aipi549/aipi540/reports/OCR-BenchMark--Vmlldzo2ODEwMjU2?accessToken=rr7c538ke1glhoocgq9zc1c12mxwon7i4rrqojrpef8hm7m6nfzh3s2u7f3f6q61)
+We have documented our testing, tabulation, reports, and comparisons between our different approaches on the Weights & Biases platform. You can view our project here: https://wandb.ai/aipi549/aipi540/overview?workspace=user-hongxuanli and the [Results from all of the models on our dataset](https://wandb.ai/aipi549/aipi540/reports/OCR-BenchMark--Vmlldzo2ODEwMjU2?accessToken=rr7c538ke1glhoocgq9zc1c12mxwon7i4rrqojrpef8hm7m6nfzh3s2u7f3f6q61)
 
 ## Slides
 [Access to our slides](https://docs.google.com/presentation/d/15MNsctdNaPQHyF_QeDA81SoFeIv6plIoP98E4iScOr0/edit?usp=sharing)
